@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -20,3 +19,4 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+.gitignore

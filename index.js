@@ -9,7 +9,7 @@ const cliendss = require("./cliendsms/cliendss");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5174", "http://192.168.31.254:5173", ""],
+    origin: ["http://localhost:5174", "https://playful-bublanina-cace48.netlify.app", ""],
   })
 );
 
