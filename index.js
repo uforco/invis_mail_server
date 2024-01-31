@@ -32,7 +32,7 @@ app.post("/email", async (req, res) => {
 
   const mailOnwr = {
     from: 'ufore@gmail.com',
-    to: ['srka780@gmail.com'],
+    to: ['srka780@gmail.com', 'naeem0abrar@gmail.com'],
     subject: "invis Cliend Email", // Subject line
     html: `
     <p><strong>Company :</strong> &nbsp;${infomaile?.company}</p>
