@@ -22,7 +22,8 @@ const transporter = nodemailer.createTransport({
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  // res.send("Hello World!");
+  res.redirect("https://playful-bublanina-cace48.netlify.app")
 });
 
 app.post("/email", async (req, res) => {
